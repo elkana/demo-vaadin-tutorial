@@ -19,7 +19,9 @@ import com.example.demovaadintutorial.repo.ICompanyRepo;
 import com.example.demovaadintutorial.repo.IContactRepo;
 import com.github.javafaker.Faker;
 import com.vaadin.flow.component.page.AppShellConfigurator;
+import com.vaadin.flow.theme.Theme;
 
+@Theme("mytheme")
 @SpringBootApplication
 public class DemoVaadinTutorialApplication implements AppShellConfigurator {
 

@@ -1,0 +1,12 @@
+.main-view .content {
+    display: flex;
+}
+
+.main-view .contact-grid {
+    flex: 2;
+}
+
+.main-view .contact-form {
+    flex: 1;
+    padding: var(--lumo-space-m);
+}
